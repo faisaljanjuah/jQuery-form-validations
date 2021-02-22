@@ -1,0 +1,46 @@
+
+/* variable names declared */
+$bgColor: #fff;
+$quantityFontsize: 22px;
+$quantitycolor:darkgrey;
+
+.mainContent {
+    margin-bottom: 50px;
+}
+.tiles a.tiles-items {
+    text-decoration: none;
+    display: block;
+}
+.tilesWrapper .tiles-items .icon-row {
+    padding: 30px 20px;
+    text-align: center;
+    border-radius: 6px;
+    position: relative;
+    background: $bgColor;
+    box-shadow: 0 1px 15px rgba(0,0,0,.04), 0 1px 6px rgba(0,0,0,.04);
+    word-wrap: break-word;
+}
+.tilesWrapper .tiles-items .icon-row .card-content i.glyphicon-shopping-cart{
+   font-size: 32px;
+}
+.tilesWrapper .tiles-items .icon-row .card-content p.order-type {
+    padding-top: 10px;
+}
+.tilesWrapper .tiles-items .icon-row .card-content p.order-quantity {
+    font-size: $quantityFontsize;
+    color: $quantitycolor;
+}
+.tilesWrapper .tiles {
+    margin-bottom: 30px;
+    max-width: calc(100% - 58px);
+}
+.chart {
+    max-width: calc(100% - 58px);
+}
+#container{
+    max-width: calc(100% - 14px);
+    padding-left: 18px;
+    border-radius: 6px;
+    overflow-x: auto !important;
+    overflow-y: auto !important;
+}
